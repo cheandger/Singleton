@@ -8,12 +8,11 @@ public class SingletonLogger {
 
     private static SingletonLogger lazySingleTone;
 
-    SingletonLogger() {
+  private   SingletonLogger() {
     }
 
-    ;
 
-    public static SingletonLogger getInstance() {
+    static SingletonLogger getInstance() {
 
         if (lazySingleTone == null) {
 

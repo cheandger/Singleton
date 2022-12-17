@@ -8,7 +8,7 @@ public class Main {
         SomeOtherClass someOtherClass = new SomeOtherClass();
 
         SingletonLogger singletonLogger = SingletonLogger.getInstance();
-        singletonLogger.classLogg(someOtherClass);
+        singletonLogger.classLogg(firstClassObj);
 
     }
 }
