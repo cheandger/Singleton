@@ -1,3 +1,4 @@
+
 package Singletone;
 
 import java.time.LocalDateTime;

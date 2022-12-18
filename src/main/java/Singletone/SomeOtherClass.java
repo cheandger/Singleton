@@ -3,7 +3,7 @@ package Singletone;
 
 public class SomeOtherClass {
 
-   SomeOtherClass someOtherClass;
+    SomeOtherClass someOtherClass;
 
 
     public static void someMethod (){
